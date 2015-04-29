@@ -1,0 +1,87 @@
+
+#oa_animation {
+    transition: -webkit-filter 5s, filter 5s;
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+
+#oa_animation.inverted {
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+#oa_animation:hover, .inverted {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#banner_start
+{
+    background: #000;
+}
+
+#banner
+{
+    /*width: 960px;
+    min-height: 560px;
+    background: #000;
+    margin: 0 auto;*/
+    background: #000;
+    
+}
+
+#banner {
+    transition: -webkit-filter 5s, filter 5s;
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+
+#banner.inverted {
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#oa_logo
+{
+    margin: 0 auto;
+    max-width: 783.07px;
+    max-height: 647.369px;
+}
+
+
+
+.svg-container 
+{
+    background: #000;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    
+    transition: -webkit-filter 5s, filter 5s;
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
+}
+
+.svg-container.inverted {
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.svg-content 
+{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
